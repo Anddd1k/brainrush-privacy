@@ -2,7 +2,7 @@
 
 Last updated: 6 October 2026
 
-BrainRush is an Android cognitive-training game published by **AndDev**. This policy explains how information is handled when you use BrainRush (package **com.brainrush.app**), including local training features, advertising, consent, purchases and sharing.
+BrainRush is an Android cognitive-training game published by **AndDev**. This policy explains how information is handled when you use BrainRush (package **com.anddev.brainrush**), including local training features, advertising, consent, purchases and sharing.
 
 For privacy questions, contact **[brainrushh1@gmail.com](mailto:brainrushh1@gmail.com)**.
 
@@ -107,5 +107,5 @@ AndDev may update this policy to reflect changes to BrainRush or applicable requ
 ## Contact
 
 **Developer / publisher:** AndDev  
-**App:** BrainRush — com.brainrush.app  
+**App:** BrainRush — com.anddev.brainrush  
 **Privacy contact:** [brainrushh1@gmail.com](mailto:brainrushh1@gmail.com)
