@@ -1,6 +1,6 @@
 # BrainRush Privacy Policy
 
-Official public Privacy Policy website for BrainRush (`com.brainrush.app`), published by AndDev.
+Official public Privacy Policy website for BrainRush (`com.anddev.brainrush`), published by AndDev.
 
 Privacy contact: [brainrushh1@gmail.com](mailto:brainrushh1@gmail.com).
 

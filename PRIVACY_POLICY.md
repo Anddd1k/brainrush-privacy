@@ -1,6 +1,6 @@
 # BrainRush Privacy Policy
 
-Last updated: 6 October 2026
+Last updated: 7 October 2026
 
 BrainRush is an Android cognitive-training game published by **AndDev**. This policy explains how information is handled when you use BrainRush (package **com.anddev.brainrush**), including local training features, advertising, consent, purchases and sharing.
 
@@ -25,8 +25,11 @@ BrainRush processes your challenge responses and performance to run the game and
 - Achievement progress and unlock information.
 - Settings such as sound, haptics and appearance, and whether onboarding has been completed.
 - Local Premium status, including whether monthly or lifetime access is recorded.
+- If review access is activated, a version number and code-verifier marker in separate private storage excluded from standard Android Auto Backup.
 
 These records support gameplay, progress displays, Daily completion tracking, achievements and your preferences. BrainRush has no AndDev-operated server or automatic upload of these training records. Levels and Brain Score are calculated from the stored game data rather than from an identity profile.
+
+The optional **Settings → Review access** control checks a review code locally to unlock the same training features without a purchase. The entered code is processed temporarily in memory; BrainRush does not save it or automatically send it to a server. Review access is separate from Google Play purchase ownership. While it is active, the app blocks its ad requests and displays; this does not guarantee that installed Google SDKs perform no other processing.
 
 The app also keeps some operational information temporarily in memory, such as session state, ad availability, purchase records and app-event information. Its own event logger does not upload events to an AndDev server. Operational or error messages may be written to Android logs; development builds can include additional debug logging. Google SDKs have their own data processing, described below.
 
@@ -82,6 +85,8 @@ BrainRush keeps its latest 100 challenge-result records and its latest 14 scores
 
 Android's clear-storage control or normal uninstall removes the app's current private files, preferences, databases and cache. Google-held records, purchase ownership, messages you shared, device-level service information and previous backups are separate. Premium ownership can be restored from Google Play after reinstalling.
 
+**Settings → Review access → Leave review access** removes the local activation marker. Reset Training Progress leaves that marker in place. It is valid only for the matching app version and code verifier, so updating to a different version or verifier invalidates access. Its storage is excluded from standard Android Auto Backup; manufacturer-specific device-transfer behavior has not been verified.
+
 Android backup and device-transfer features may copy eligible app data according to the Android version, device configuration and the app's backup rules. The current rules do not separately include the main training and settings stores in standard Android backup. Device-specific transfer behavior and other eligible app data can differ. Do not assume that every app record is backed up, or that resetting or uninstalling deletes earlier backups.
 
 Temporary in-memory app records are normally released when the process ends. Android logs and SDK caches have their own lifecycles. Google and other independent services determine their retention and deletion practices; AndDev does not control or promise a fixed retention period for their records. See [Google's retention information](https://policies.google.com/technologies/retention) and Google's account/privacy controls.
@@ -102,7 +107,7 @@ If you are a parent or guardian with concerns about a child's use or information
 
 ## Changes to this policy
 
-AndDev may update this policy to reflect changes to BrainRush or applicable requirements. The revised policy will show a new last-updated date. When the public policy page is made available, the Privacy Policy entry in Settings will link to it. Any additional notice required for a material change will be provided as applicable.
+AndDev may update this policy to reflect changes to BrainRush or applicable requirements. The revised policy will show a new last-updated date. The Privacy Policy entry in Settings links to the public policy page. Any additional notice required for a material change will be provided as applicable.
 
 ## Contact
 
